@@ -1,0 +1,23 @@
+input[type='text'] {
+    display: block;
+    width: 400px;
+    font-size: 14px;
+    line-height: 1.43;
+    /* color: #f555; */
+    background-color: white;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+.body{
+    padding-left: 20px;
+}
+
+.formControl {
+    margin-bottom: 20px;
+}
+
+.errors {
+    color: red;
+}

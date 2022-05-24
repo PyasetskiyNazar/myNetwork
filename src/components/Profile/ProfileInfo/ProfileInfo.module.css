@@ -1,0 +1,16 @@
+
+
+.profileDescription{
+    padding-left: 10px;
+    /* background-color: rgb(29, 155, 240); */
+    
+}
+.imageProfile img{
+    /* background-color: rgb(29, 155, 240); */
+    width: 100%;
+    height: 300px;
+    
+}
+.avatarImage{
+    width: 100px;
+}

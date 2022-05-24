@@ -1,0 +1,46 @@
+.pages {
+   padding: 10px;
+   /* font-size: 14px; */
+   cursor: pointer;
+   color: rgb(14, 13, 13);
+   max-width: 500px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+
+.selectedPage {
+   font-weight: bold;
+   /* font-size: 14px; */
+   color: rgb(240, 29, 29);
+   padding: 5px;
+   border: 1px solid rgb(240, 29, 29);
+}
+
+.Page {
+   padding: 10px;
+   padding: 5px;
+   margin: 1px;
+   color: rgb(14, 13, 13);
+   border-radius: 10%;
+   border: 1px solid rgba(29, 155, 240, 1);
+}
+
+.Page:hover {
+   background-color: rgba(29, 155, 240, 1);
+}
+
+.selectedPage:hover {
+   background-color: rgba(29, 155, 240, 1);
+}
+
+.setPortionPagesButton {
+   background-color: rgba(29, 155, 240, 1);
+   border-radius: 15%;
+   margin-bottom: 10px;
+   margin: 5px;
+   padding: 5px;
+   /* 
+   width: 50px; */
+   /* font-size: 14px !important; */
+}

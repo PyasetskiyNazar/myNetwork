@@ -1,0 +1,12 @@
+
+
+.dialog a{
+    color: rgb(10, 10, 10);
+    padding-left: 5px;
+    text-decoration-line: none;
+    
+}
+
+.dialog a.activeDialog{
+    color: rgb(255, 145, 0);
+}
