@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
     <Header className="header" >
       <div className="logo" />
       <Row>
-        <Col span={18} style={{ backgroundColor: 'green' }}>
+        <Col span={18} >
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} >
             <Menu.Item key="1"> <NavLink to="/profile">Profile</NavLink></Menu.Item>
             <Menu.Item key="2"> <NavLink to="/dialogs">Messages</NavLink></Menu.Item>
